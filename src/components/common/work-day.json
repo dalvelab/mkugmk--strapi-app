@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_work_days",
+  "info": {
+    "displayName": "workDay",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "weekDay": {
+      "type": "enumeration",
+      "enum": [
+        "понедельник",
+        "вторник",
+        "среда",
+        "четверг",
+        "пятница",
+        "суббота",
+        "воскресенье"
+      ]
+    },
+    "isClosed": {
+      "type": "boolean"
+    },
+    "timeOpen": {
+      "type": "time"
+    },
+    "timeClose": {
+      "type": "time"
+    }
+  }
+}
