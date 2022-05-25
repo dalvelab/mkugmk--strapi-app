@@ -24,11 +24,12 @@
         }
       }
     },
-    "image": {
+    "media": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
+        "videos",
         "images"
       ],
       "pluginOptions": {
