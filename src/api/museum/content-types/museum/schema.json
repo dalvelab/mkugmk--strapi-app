@@ -89,21 +89,13 @@
         }
       }
     },
-    "ticketLink": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "address": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "text"
+      "type": "string"
     },
     "tags": {
       "pluginOptions": {
