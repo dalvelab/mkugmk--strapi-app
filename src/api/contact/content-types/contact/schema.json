@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "tickets",
+  "collectionName": "contacts",
   "info": {
-    "singularName": "ticket",
-    "pluralName": "tickets",
-    "displayName": "Ticket",
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
     "description": ""
   },
   "options": {
@@ -16,10 +16,10 @@
     }
   },
   "attributes": {
-    "ticket": {
+    "contact": {
       "type": "component",
       "repeatable": true,
-      "component": "common.ticket",
+      "component": "common.contact",
       "pluginOptions": {
         "i18n": {
           "localized": true

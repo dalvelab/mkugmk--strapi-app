@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_tickets",
+  "info": {
+    "displayName": "Ticket",
+    "icon": "digital-tachograph"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ticketLink": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
