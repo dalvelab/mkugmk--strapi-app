@@ -105,6 +105,14 @@
         }
       },
       "type": "string"
+    },
+    "isTickets": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }

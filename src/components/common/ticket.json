@@ -7,34 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "ticketLink": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "museum": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::museum.museum"
     },
     "title": {
-      "type": "enumeration",
-      "enum": [
-        "МВТ",
-        "МАТ",
-        "ПР",
-        "КП",
-        "МВТ, МАТ",
-        "МВТ, КП",
-        "МВТ, ПР",
-        "МАТ, КП",
-        "МАТ, ПР",
-        "МАТ, КП, ПР",
-        "МАТ, МВТ, КП",
-        "МВТ, КП, ПР",
-        "МАТ, МВТ, КП, ПР"
-      ]
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
